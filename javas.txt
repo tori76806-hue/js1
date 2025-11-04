@@ -1,0 +1,58 @@
+<html lang="kk">
+<head>
+  <meta charset="UTF-8">
+  <title>Сәлемдесу</title>
+</head>
+<body>
+  <script>
+    let name = prompt("Атың кім?");
+    let age = prompt("Жасың неше?");
+    let country = prompt("Қай елденсің?");
+    alert("Сәлем, " + name + "! Сенің жасың " + age + ", және сен " + country + " еліненсің.");
+  </script>
+</body>
+</html>  
+
+
+
+
+console.log( "" + 1 + 0);//10
+console.log("" - 1 + 0);//-1
+console.log(true + false);///1
+console.log(6 / "3");//2
+console.log("2" * "3");//6
+console.log(4 + 5 + "px");//9px
+console.log("$" + 4 + 5);//$45
+console.log("4" - 2);//2
+console.log("4px" - 2);//NaN
+console.log("  -9  " + 5);//-9  5
+console.log("  -9  " - 5);//-14
+console.log(null + 1);//1
+console.log(undefined + 1);//NaN
+console.log(" \t \n" - 2);//-2
+console.log(" \t 10 \n" * 2);//20
+console.log(true + "true");//truetrue
+console.log("10" / "2");//5
+console.log("10" + true);//10true
+console.log(false - "5");//-5
+console.log(null * "5");//0
+console.log(true + true + true);//-3
+console.log(false + false + 10);//10
+console.log("10" - true);//9
+console.log("10" - false);//10
+console.log("10" + false);//10false
+console.log(5 * null);//0
+console.log(5 * undefined);//NaN
+console.log(5 + null);//5
+console.log(5 + undefined);//NaN
+console.log(5 / "2px");//NaN
+console.log("1" + 1 + 1);//111
+console.log("1" - 1 + 1);//1
+console.log("1" + (1 - 1));//10
+console.log(true + "2");//true2
+console.log("10" / "0");
+console.log(10 / "0");
+console.log("10" * "0");//0
+console.log("5" + + "5");//55
+console.log("5" - - "5");//10
+console.log("5" + - "2");//5-2
